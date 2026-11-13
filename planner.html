@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Academic Planner | Student Portfolio</title><link rel="stylesheet" href="css/style.css"><script src="js/planner.js" defer></script><script src="js/main.js" defer></script></head>
+<body>
+<header class="site-header"><a class="logo" href="index.html">My<span>Portfolio</span></a><button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><nav class="navigation" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" href="planner.html">Academic Planner</a><a href="contact.html">Contact</a></nav></header>
+<main class="container page-main">
+  <section class="page-intro"><p class="eyebrow">PLAN YOUR PROGRESS</p><h1>Academic Planner</h1><p>Add your academic tasks, track what you have completed and keep your study activities organised.</p></section>
+  <section class="planner-layout">
+    <div class="content-card planner-form-card"><h2>Add a task</h2><form id="task-form"><label for="task-input">Task description</label><input id="task-input" type="text" placeholder="e.g. Complete HTML assignment" maxlength="100" required><label for="task-date">Due date (optional)</label><input id="task-date" type="date"><button class="button" type="submit">＋ Add task</button></form><p id="planner-message" class="form-message" role="status"></p></div>
+    <div class="content-card task-card"><div class="task-heading"><div><p class="eyebrow">MY TO-DO LIST</p><h2>Study tasks</h2></div><span id="task-count" class="task-count">0 tasks</span></div><ul id="task-list" class="task-list" aria-live="polite"><li class="empty-state">No tasks yet. Add your first task.</li></ul><button id="clear-completed" class="button button-outline button-small" type="button">Clear completed tasks</button></div>
+  </section>
+</main>
+<footer class="site-footer"><p>© <span class="year"></span> Oluwaseun Ramotallahi Olowu. Student Portfolio Project.</p></footer>
+</body></html>
