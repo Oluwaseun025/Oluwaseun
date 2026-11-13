@@ -13,20 +13,12 @@ A responsive five-page student portfolio built with HTML, external CSS and vanil
 Open `index.html` in a browser. For best results, use Visual Studio Code with the Live Server extension.
 
 ## Personal details
-The portfolio is customised for **Oluwaseun Ramotallahi Olowu**, a 100-level Cybersecurity student at MIVA Open University. The homepage uses the supplied portrait in `images/oluwaseun-ramotallahi-olowu.jpeg`.
+The portfolio is customized for **Oluwaseun Ramotallahi Olowu**, a 100-level Cybersecurity student at MIVA Open University. The homepage uses the supplied portrait in `images/oluwaseun-ramotallahi-olowu.jpeg`.
 
 ## JavaScript features
 - `js/main.js`: responsive navigation and automatic footer year.
 - `js/planner.js`: array-based task management, DOM updates and browser `localStorage` persistence.
 - `js/contact.js`: required-field, email-format and digits-only phone validation.
-
-## Before submission
-1. Open all five pages and check the links and images.
-2. Test the planner by adding a task, marking it complete, deleting it and refreshing the page.
-3. Test the contact form with empty fields, an invalid email, a phone number containing letters/symbols, and valid entries.
-4. Check the website at desktop and mobile widths.
-5. Confirm the sample video plays while connected to the internet.
-6. Publish the folder using GitHub Pages and submit both the live website URL and repository URL.
 
 ## Important notes
 - The contact form is front-end only. It validates entries but does not deliver messages to an email inbox.
